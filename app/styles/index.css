@@ -133,3 +133,47 @@ main {
   text-align: center;
   font-size: 2.2rem;
 }
+
+.contenedor__error {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem 0;
+}
+
+.error,
+.error-enlace {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.error-enlace {
+  width: 18.75rem;
+  color: var(--primary);
+  text-decoration: none;
+  background-color: var(--black);
+  font-weight: 600;
+  text-align: center;
+  border-radius: 0.6rem;
+  padding: 0.7rem;
+}
+
+.enlace {
+  margin-top: 2rem;
+  display: block;
+  background-color: var(--black);
+  color: var(--white);
+  text-decoration: none;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 900;
+  transition-property: background-color;
+  transition-duration: 300ms;
+}
+
+.enlace:hover {
+  background-color: var(--primary);
+}
