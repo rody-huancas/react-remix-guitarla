@@ -1,4 +1,4 @@
-import { Link, useLoaderData } from "@remix-run/react";
+import { useLoaderData } from "@remix-run/react";
 import { getPost } from "~/models/posts.server";
 import { formatearFecha } from "~/utils/herlpers";
 import styles from "~/styles/blog.css";
@@ -46,7 +46,7 @@ export default function Post() {
 
   return (
     <>
-      <article className="contenedor post mt-3">
+      <article className="post mt-3">
         <img className="imagen" src={imagen.data.attributes.url} alt={titulo} />
 
         <div className="contenido">
